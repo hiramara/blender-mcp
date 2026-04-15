@@ -7,6 +7,9 @@ def main():
     Runs the MCP server that connects Blender to Claude via the
     Model Context Protocol. Requires Blender to be running with
     the blender-mcp addon enabled.
+
+    Note: Make sure Blender is fully loaded before starting this server,
+    otherwise the addon connection may fail silently.
     """
     server_main()
 
